@@ -1,0 +1,47 @@
+.our-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.section-team{
+    margin: 1rem 0;
+}
+
+.section-p-title{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.container-team{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.our-team{
+    max-width: 33%;
+}
+
+.our-p-title{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #DE423A;
+    margin-bottom: 2rem;
+}
+
+.our-p-sub{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 950px){
+    .container-team{
+        flex-flow: column wrap;
+    }
+
+    .our-team{
+        max-width: 100%;
+    }
+}

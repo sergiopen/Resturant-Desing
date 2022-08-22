@@ -1,0 +1,88 @@
+.form-p-title{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.form-container{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 0 2rem 0;
+}
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 3rem;
+    min-width: 40%;
+}
+
+.form .input-container input, textarea{
+    width: 100%;
+}
+
+.input-item-btn{
+    background-color: #DE423A;
+    margin: 1rem auto;
+    border: none;
+    padding: 10px 15px;
+    width: 50%;
+    cursor: pointer;
+    color: #fff;
+}
+
+textarea{
+    height: 80px;
+    resize: none;
+}
+
+.contact-container{
+    max-width: 44.6%;
+    margin: auto;
+    border-right: 2px solid #DE423A;
+}
+
+.text-p-title{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.text-p-sub{
+    max-width: 85%;
+}
+
+.contact-icon-container{
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.contact-icon-item{
+    margin-top: .4rem;
+    margin-right: 2.5rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.contact-icon-item a{
+    padding: 10px 15px;
+    border-radius: 100%;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px){
+    .form{
+        max-width: 50%;
+        margin: auto;
+    }
+
+    .contact-container{
+        max-width: 50%;
+    }
+    
+    .input-item-btn{
+        margin-top: 4rem;
+    }
+}
