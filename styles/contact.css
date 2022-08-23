@@ -53,23 +53,24 @@ textarea{
 .contact-icon-container{
     display: flex;
     flex-flow: row wrap;
-    margin: auto;
 }
 
 .contact-icon-item{
-    margin-top: .4rem;
-    margin-right: 2.5rem;
-    height: 30px;
-    width: 30px;
-    text-align: center;
+    margin: 1rem;
+    height: 40px;
+    width: 40px;
 }
 
 .contact-icon-item a{
-    padding: 10px 15px;
-    border-radius: 100%;
+    font-weight: bold;
+    padding: 10px 13px;
+    font-family: monospace;
+    line-height: 30px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    text-align: center;
     background-color: #000;
     color: #fff;
-    text-decoration: none;
 }
 
 @media screen and (max-width: 800px){
